@@ -1,4 +1,5 @@
 import { useState } from "react";
+import StarRating from "./StarRating";
 
 const tempMovieData = [
   {
@@ -56,6 +57,7 @@ export default function App() {
 
   return (
     <>
+      <StarRating />
       <NavBar>
         <Logo title="Netflix And Chill">
           <span role="img">🎥</span>
@@ -63,7 +65,6 @@ export default function App() {
         <SearchBar />
         <SearchResult movies={movies} />
       </NavBar>
-
       <Main>
         {/* Left section  */}
         <VerticalSection>
