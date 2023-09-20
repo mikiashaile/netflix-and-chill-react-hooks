@@ -1,5 +1,5 @@
 import { useState } from "react";
-import StarRating from "./StarRating";
+import TestStar from "./TestStar";
 
 const tempMovieData = [
   {
@@ -57,7 +57,7 @@ export default function App() {
 
   return (
     <>
-      <StarRating />
+      <TestStar />
       <NavBar>
         <Logo title="Netflix And Chill">
           <span role="img">🎥</span>
